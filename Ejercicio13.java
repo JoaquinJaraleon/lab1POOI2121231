@@ -9,10 +9,10 @@ package laboratorio.poo1;
  * @author Alumno
  */
 public class Ejercicio13 {
-    public static void main(String[] args) {
-        int numA = 7, numB = 5;
-              if(numA > 0 && numB > 0) {
-                  System.out.println("true");
-              }
+   public static void main(String[] args){
+        int numA = -10, numB = -20;    
+        if ((numA < 0 && numB < 0) || (numA > 0 && numB > 0)) {
+            System.out.println("True");
+        }
     }
 }
